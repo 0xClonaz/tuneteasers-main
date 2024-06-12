@@ -1,0 +1,36 @@
+.row-title {
+  color: white;
+  letter-spacing: 8px;
+}
+#genreSwiper {
+  padding: 1rem;
+}
+
+.mySwiper {
+  padding: 2rem;
+  --swiper-container-sides-offset: 100px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-size: 22px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: #38e9bb;
+  transition: 0.3s;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #38e9bb;
+}
